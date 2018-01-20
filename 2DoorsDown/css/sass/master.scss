@@ -1,0 +1,121 @@
+body {
+  font-family: Didot;
+}
+
+// #logo {
+//   img{
+//     height: 10vh;
+//
+//     padding: 2vh 0 0 2vh;
+//   }
+// }
+
+
+
+.jumbotron-burger {
+  height: 70vh;
+  // margin: 0 5vw 0 5vw;
+  background-image: url("http://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Burger4_landscape-680x469.jpg");
+  background-size: cover;
+
+}
+
+// ############## NAVBAR ###############
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 0;
+  background-color: #A94842;
+  height: 12vh;
+}
+
+.navbar-default {
+  .navbar-nav {
+    li {
+      a{
+        color: #FFF;
+        font-size: 1.5em;
+        margin: 2vh .5vw 0 0;
+        padding-bottom: 1vh;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  img{
+    height: 8vh;
+    padding-bottom: 1vh;
+  }
+}
+
+#monthlySpecials {
+  font-size: 1.8em;
+  margin-top: 8vh;
+}
+
+.shakeOfMonth, .burgerOfMonth {
+  margin: 2vh 5vw 0 5vw;
+  width: 40vw;
+  text-align: center;
+  font-size: 1.2em;
+  p{
+    margin-top: 1.5vh;
+  }
+}
+
+
+.thumbnail {
+  margin: 2vh 0 0 0;
+  border: 0;
+  padding: 0;
+}
+
+p{
+  text-align: center;
+}
+
+.flexContainer {
+  height: auto;
+  width:  100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#signUpBtn {
+  width: 34vw;
+  border-radius: 5px;
+  background-color: #A94842;
+  text-align: center;
+  padding: 3vw;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+  align-items: center;
+  p{
+    color: #FFF;
+  }
+}
+
+.whoWeAre {
+  height: 40vh;
+  background-color: #FCE8C9;
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  p{
+    text-align: left;
+  }
+}
+
+.info {
+margin-top: 6vh
+}
+
+.footer {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #A94842;
+  color: #FFF;
+}
