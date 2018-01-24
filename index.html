@@ -12,23 +12,30 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="#">
           <img src="images/2doorsDownLogo.png" alt="2doorsDownLogo">
         </a>
 
-        <div class="navbar-right">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="navbar-right">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <div class="jumbotron jumbotron-burger">
       <div class="container-fluid">
@@ -42,16 +49,15 @@
   </div>
 </div>
 
-    <div class="row no-gutter">
-      <div class="container-fluid">
+  <div class="container">
+    <div class="row justify-content-around">
 
-      <div class="col-xs-6 burgerOfMonth">
-
-        <a href="#" class="thumbnail" >
-          <img src="https://static.pexels.com/photos/103886/pexels-photo-103886.jpeg" alt="burger" >
-        </a>
-        <p>The Breakfast Burger</p>
-      </div>
+        <div class="col-xs-6 burgerOfMonth">
+          <a href="#" class="thumbnail" >
+            <img src="https://static.pexels.com/photos/103886/pexels-photo-103886.jpeg" alt="burger" >
+          </a>
+          <p>The Breakfast Burger</p>
+        </div>
 
       <div class="col-xs-6 shakeOfMonth">
         <a href="#" class="thumbnail">
@@ -77,14 +83,14 @@
 </div>
 
 <div class="whoWeAre">
-  <div class="row">
-    <div class="container-fluid">
-      <div class="col-xs-4">
-        <div class="wwaImage">
-          <img src="images/55add1b3f0f71.image.jpg" alt="">
-        </div>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- <div class="col-xs-12"> -->
+
+      <div class="col-sm-4">
+        <img src="images/55add1b3f0f71.image.jpg" alt="">
       </div>
-      <div class="col-xs-8">
+      <div class="col-sm-8">
         <div class="info">
           <p>
             WHO WE ARE
@@ -97,9 +103,12 @@
           </p>
         </div>
       </div>
+      </div>
     </div>
   </div>
 </div>
+
+<!-- ################ FOOTER ################ -->
 
 <div class="footer">
   <div class="container-fluid">

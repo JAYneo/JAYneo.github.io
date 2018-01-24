@@ -2,7 +2,7 @@ body {
   font-family: Didot; }
 
 .jumbotron-burger {
-  height: 70vh;
+  height: 400px;
   background-image: url("http://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Burger4_landscape-680x469.jpg");
   background-size: cover; }
 
@@ -27,8 +27,7 @@ body {
   margin-top: 8vh; }
 
 .shakeOfMonth, .burgerOfMonth {
-  margin: 2vh 5vw 0 5vw;
-  width: 40vw;
+  width: 200px;
   text-align: center;
   font-size: 1.2em; }
   .shakeOfMonth p, .burgerOfMonth p {
@@ -49,8 +48,9 @@ p {
   justify-content: center; }
 
 #signUpBtn {
-  width: 34vw;
+  width: 234px;
   border-radius: 5px;
+  font-size: 1em;
   background-color: #A94842;
   text-align: center;
   padding: 3vw;
@@ -61,19 +61,21 @@ p {
     color: #FFF; }
 
 .whoWeAre {
-  height: 40vh;
+  height: 230px;
   background-color: #FCE8C9;
   display: flex;
   align-items: center;
   margin-top: 5vh; }
+  .whoWeAre img {
+    width: 210px; }
   .whoWeAre p {
     text-align: left; }
 
 .info {
-  margin-top: 6vh; }
+  margin-top: 2vh; }
 
 .footer {
-  height: 8vh;
+  height: 55px;
   display: flex;
   align-items: center;
   text-align: center;
