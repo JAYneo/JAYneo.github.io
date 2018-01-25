@@ -3,24 +3,23 @@ body {
   background-color: #A94842; }
 
 #wholeSite {
-  margin: 0 50px 0 50px;
+  margin: 0 6vw 0 6vw;
   background-color: #FFF; }
 
-.jumbotron-burger {
-  height: 400px;
-  background-image: url("http://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Burger4_landscape-680x469.jpg");
-  background-size: cover; }
+.jumbotron-burger img {
+  width: 100%; }
 
 .navbar {
   margin-bottom: 0;
   border-bottom: 0;
   background-color: #A94842;
-  height: 12vh; }
+  height: 12vh;
+  padding: 0 15px 0 15px; }
 
 .navbar-default .navbar-nav li a {
   color: #FFF;
   font-size: 1.5em;
-  margin: 2vh .5vw 0 0;
+  margin-top: 2vh;
   padding-bottom: 1vh; }
 
 .navbar-brand img {
@@ -33,6 +32,17 @@ body {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #FFF; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: 0; }
+
+.navbar-default .navbar-nav li a:hover {
+  background-color: #A94842;
+  color: #FCE8C9;
+  transition: 0.75s; }
+
+.navbar-default .navbar-nav li a {
+  transition: 0.75s; }
 
 #monthlySpecials {
   font-size: 1.8em;
@@ -56,31 +66,42 @@ p {
 
 .flexContainer {
   height: auto;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center; }
 
 #signUpBtn {
   width: 234px;
-  height: 140px;
+  height: 130px;
   border-radius: 5px;
   font-size: 1em;
   background-color: #A94842;
   text-align: center;
-  padding: 18px;
-  align-items: center; }
+  margin-top: 5vh;
+  padding: 15px; }
   #signUpBtn p {
     color: #FFF; }
+  #signUpBtn p:nth-child(2) {
+    transition: 0.5s; }
+
+#signUpBtn:hover a {
+  text-decoration: none; }
+
+#signUpBtn:hover p:nth-child(2) {
+  color: #FCE8C9;
+  transition: 0.5s; }
 
 .whoWeAre {
-  height: 230px;
+  height: 260px;
   background-color: #FCE8C9;
   display: flex;
   align-items: center;
-  margin-top: 40px; }
+  justify-content: center;
+  margin-top: 50px; }
   .whoWeAre img {
     width: 210px;
-    margin-right: 40px; }
+    margin-right: 40px;
+    border-radius: 5px; }
   .whoWeAre p {
     text-align: left; }
 
@@ -89,8 +110,15 @@ p {
 
 .footer {
   height: 55px;
+  padding: 0 15px 0 15px;
   display: flex;
   align-items: center;
   text-align: center;
   background-color: #A94842;
   color: #FFF; }
+
+.container-fluid {
+  padding: 0; }
+
+button {
+  border: 0; }
