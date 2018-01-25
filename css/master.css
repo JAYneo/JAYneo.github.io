@@ -1,5 +1,10 @@
 body {
-  font-family: Didot; }
+  font-family: Didot;
+  background-color: #A94842; }
+
+#wholeSite {
+  margin: 0 50px 0 50px;
+  background-color: #FFF; }
 
 .jumbotron-burger {
   height: 400px;
@@ -23,16 +28,18 @@ body {
   padding-bottom: 1vh; }
 
 .navbar-toggle {
-  margin-top: 3.5vh; }
+  margin-top: 3.5vh;
+  padding: 1vh; }
 
-.icon-bar {
-  background-color: white; }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF; }
 
 #monthlySpecials {
   font-size: 1.8em;
   margin-top: 8vh; }
 
 .shakeOfMonth, .burgerOfMonth {
+  margin: 0 65px 0 65px;
   width: 200px;
   text-align: center;
   font-size: 1.2em; }
@@ -55,13 +62,12 @@ p {
 
 #signUpBtn {
   width: 234px;
+  height: 140px;
   border-radius: 5px;
   font-size: 1em;
   background-color: #A94842;
   text-align: center;
-  padding: 3vw;
-  margin-top: 4vh;
-  margin-bottom: 1vh;
+  padding: 18px;
   align-items: center; }
   #signUpBtn p {
     color: #FFF; }
@@ -71,14 +77,15 @@ p {
   background-color: #FCE8C9;
   display: flex;
   align-items: center;
-  margin-top: 5vh; }
+  margin-top: 40px; }
   .whoWeAre img {
-    width: 210px; }
+    width: 210px;
+    margin-right: 40px; }
   .whoWeAre p {
     text-align: left; }
 
 .info {
-  margin-top: 2vh; }
+  width: 380px; }
 
 .footer {
   height: 55px;
