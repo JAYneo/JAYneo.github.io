@@ -49,10 +49,12 @@ body {
   margin-top: 8vh; }
 
 .shakeOfMonth, .burgerOfMonth {
-  margin: 0 65px 0 65px;
-  width: 200px;
+  margin: 0 8vw 0 8vw;
+  width: 250px;
   text-align: center;
   font-size: 1.2em; }
+  .shakeOfMonth img, .burgerOfMonth img {
+    border-radius: 5px; }
   .shakeOfMonth p, .burgerOfMonth p {
     margin-top: 1.5vh; }
 
@@ -92,21 +94,21 @@ p {
   transition: 0.5s; }
 
 .whoWeAre {
-  height: 260px;
   background-color: #FCE8C9;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding: 10px; }
   .whoWeAre img {
     width: 210px;
-    margin-right: 40px;
+    margin: 10px 40px 10px 0px;
     border-radius: 5px; }
   .whoWeAre p {
+    margin: 1vh 0 1vh 0;
     text-align: left; }
 
 .info {
-  width: 380px; }
+  width: 400px; }
 
 .footer {
   height: 55px;
