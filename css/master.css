@@ -22,6 +22,12 @@ body {
   height: 8vh;
   padding-bottom: 1vh; }
 
+.navbar-toggle {
+  margin-top: 3.5vh; }
+
+.icon-bar {
+  background-color: white; }
+
 #monthlySpecials {
   font-size: 1.8em;
   margin-top: 8vh; }
