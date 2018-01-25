@@ -48,14 +48,24 @@ body {
   font-size: 1.8em;
   margin-top: 8vh; }
 
-.shakeOfMonth, .burgerOfMonth {
-  margin: 0 8vw 0 8vw;
+.shakeOfMonth {
+  margin-right: 10vw;
   width: 250px;
   text-align: center;
   font-size: 1.2em; }
-  .shakeOfMonth img, .burgerOfMonth img {
+  .shakeOfMonth img {
     border-radius: 5px; }
-  .shakeOfMonth p, .burgerOfMonth p {
+  .shakeOfMonth p {
+    margin-top: 1.5vh; }
+
+.burgerOfMonth {
+  margin-left: 10vw;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2em; }
+  .burgerOfMonth img {
+    border-radius: 5px; }
+  .burgerOfMonth p {
     margin-top: 1.5vh; }
 
 .thumbnail {
@@ -98,17 +108,16 @@ p {
   display: flex;
   align-items: center;
   margin-top: 50px;
-  padding: 10px; }
-  .whoWeAre img {
-    width: 210px;
-    margin: 10px 40px 10px 0px;
-    border-radius: 5px; }
+  padding: 2vw; }
   .whoWeAre p {
-    margin: 1vh 0 1vh 0;
     text-align: left; }
+  .whoWeAre img {
+    width: 85%;
+    border-radius: 5px; }
 
 .info {
-  width: 400px; }
+  padding-top: 4vh;
+  width: 90%; }
 
 .footer {
   height: 55px;
